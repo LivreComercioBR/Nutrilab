@@ -20,4 +20,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('nutrilab/', include('nutrilab_app.urls')),
+    path('', include('plataforma.urls')),
 ]
